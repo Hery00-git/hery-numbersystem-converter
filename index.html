@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number System Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="converter-box">
+    <h2>Number System Converter</h2>
+
+    <input type="text" id="inputValue" placeholder="Enter number" />
+ 
+    <select id="convertDirection">
+      <option value="decToHex">Decimal → Hexadecimal</option>
+      <option value="hexToDec">Hexadecimal → Decimal</option>
+      <option value="decToBin">Decimal → Binary</option>
+      <option value="binToDec">Binary → Decimal</option>
+      <option value="binToHex">Binary → Hexadecimal</option>
+      <option value="hexToBin">Hexadecimal → Binary</option>
+    </select>
+
+    <button onclick="convert()">Convert</button>
+
+    <p id="result">Result will appear here</p>
+
+    <p class="made">Made by <a href="https:t.me/HeryMusk_7117">HeryMusk</a></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
